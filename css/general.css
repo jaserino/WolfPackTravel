@@ -1,0 +1,109 @@
+/* Color scheme
+main container color
+#80ffff
+
+accent color
+#283644
+
+compliment
+
+#029292
+rgb(204, 255, 255)
+#FFFFFF
+*/
+
+/*
+btn-lg-cta
+btn-md-cta
+btn-sm-cta
+*/
+
+/* Global */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 85%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+section {
+  display: block;
+}
+
+body {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  /* overflow: hidden; */
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+}
+
+h3 {
+  font-size: 3.2rem;
+  line-height: 1.6;
+}
+
+h4 {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+/*  GLOBAL GRID  */
+
+.grid {
+  display: grid;
+  column-gap: 4.8rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-center {
+  align-items: center;
+}
+
+.grid-rental {
+  display: grid;
+  column-gap: 4.8rem;
+  row-gap: 4.8rem;
+}

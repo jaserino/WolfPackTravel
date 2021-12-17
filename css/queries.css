@@ -1,0 +1,150 @@
+/* 1376px */
+
+@media (max-width: 86rem) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .hero-primary {
+    font-size: 4.2rem;
+  }
+}
+
+/* 1200px */
+
+@media (max-width: 75rem) {
+  html {
+    font-size: 75%;
+  }
+
+  .hero {
+    max-width: 120rem;
+  }
+
+  .hero-primary {
+    font-size: 4.2rem;
+  }
+
+  .book {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* 944px */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 75%;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+
+  .destination-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+    margin-top: 4.8rem;
+  }
+
+  .gallery-fig:nth-last-of-type(9) {
+    display: none;
+  }
+
+  h3 {
+    font-size: 4.5rem;
+  }
+}
+
+/* 880px */
+
+@media (max-width: 55em) {
+  html {
+    font-size: 65%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .panel {
+    height: 50vh;
+  }
+
+  .book {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .book-img-box {
+    overflow: hidden;
+  }
+
+  .grid-rental {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.4rem;
+    row-gap: 2.4rem;
+  }
+}
+
+/* 704 below */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-expanding-cards {
+    display: none;
+  }
+
+  .book {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* phones */
+@media (max-width: 35em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .destination-heading {
+    text-align: center;
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-nav-list {
+    gap: 1.8rem;
+  }
+
+  .main-nav-link.btn-lg-cta:link,
+  .main-nav-link.btn-lg-cta:visited {
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #283644;
+  }
+}

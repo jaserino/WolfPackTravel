@@ -1,0 +1,110 @@
+/* SECTION BOOK */
+
+.section-book {
+  padding: 4.8rem 0 9.6rem 0;
+  background: #ccffff;
+}
+
+/* Book Form */
+
+.book {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 15%);
+  border-radius: 9px;
+  overflow: hidden;
+  background-color: #e6e6e6;
+  background: linear-gradient(to left, #e6e6e6, #bfbfbf);
+}
+
+.book-text-box {
+  padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+}
+
+.book-text-heading,
+.book-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book .book-text-heading {
+  margin-bottom: 1.2rem;
+}
+
+.book-text-heading {
+  font-size: 3.2rem;
+  line-height: 1.6;
+}
+
+.book-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 2.4rem; /* situational */
+}
+
+.book-form label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.book-form input {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.book-img-box {
+  background-image: url(/img/family-fun.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-form {
+  margin-top: 1.2rem;
+  padding: 1.2rem 1.2rem;
+  border-radius: 11px;
+  color: #fff;
+  background-color: #283644;
+  text-decoration: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-form:hover,
+.btn-form:active {
+  padding: 1.2rem 1.2rem;
+  border-radius: 11px;
+  color: #fff;
+  background-color: #19242e;
+}
+
+.book-form select {
+  width: 50%;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+  font-size: 1.2rem;
+}
+
+.row {
+  display: flex;
+  column-gap: 20px;
+}
+
+.form-last {
+  margin-top: 2.4rem;
+}

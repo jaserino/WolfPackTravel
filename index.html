@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wolf Pack Travel is a travel agency dedicated to planning every aspect of your vacation so all you have to do is relax. We do the work for you so your vacation can be, well ... a vacation."/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Wolf Pack Travel - Planning your Adventure</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" name="logo-link">
+        <img class="logo" alt="wolf pack logo" src="img/logonav.png">
+      </a>
+      
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#destination">Destinations</a></li>
+          <li><a class="main-nav-link" href="#rental">Rentals</a></li>
+          <li><a class="main-nav-link btn-lg-cta" href="#book-now">Book Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text">
+            <h1 class="hero-primary">
+              <span style="color: #283644"> Running </span><br />
+              to your Destination
+            </h1>
+            <p class="hero-description">
+              There are so many amazing places around the globe to see, we
+              couldn't possibly include them all in just one list,
+              <strong style="color: #283644">or could we? </strong> Wolf Pack
+              Travel has your back. Explore these breathtaking destinations and
+              cross them off your travel bucket list!
+            </p>
+            <a href="#book-now" class="btn btn-cta">Book Now</a>
+            <a href="#destination" class="btn">Explore Destinations</a>
+          </div>
+          <div class="hero-expanding-cards">
+            <div
+              class="panel active"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1463003416389-296a1ad37ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+              "
+            >
+              <div class="expanding-heading">Explore The World</div>
+            </div>
+
+            <div
+              class="panel"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80');
+              "
+            >
+              <div class="expanding-heading">Wild Forest</div>
+            </div>
+
+            <div
+              class="panel"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+              "
+            >
+              <div class="expanding-heading">Beautiful Beaches</div>
+            </div>
+
+            <div
+              class="panel"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+              "
+            >
+              <div class="expanding-heading">Winter Wonderland</div>
+            </div>
+            <div
+              class="panel"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1559767180-47d8f4919e5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80');
+              "
+            >
+              <div class="expanding-heading">Sea of Sands</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-book" id="book-now">
+        <div class="container">
+          <div class="book">
+            <div class="book-text-box">
+              <h2 class="book-text-heading">
+                Plan Your Dream Vacation
+              </h2>
+              <p class="book-text">
+                Please fill out the form to start your adventure
+              </p>
+              <form class="book-form" name="sign-up" netlify>
+                <div>
+                  <label for="fname"
+                    ><i class="fa fa-user"></i> Full Name</label
+                  >
+                  <input
+                    type="text"
+                    id="fname-book"
+                    name="firstname"
+                    placeholder="John M. Doe"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">
+                    <i class="fa fa-envelope"></i> Email Address</label>
+                  <input
+                    type="email"
+                    id="email-book"
+                    name="email"
+                    placeholder="john@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="adr"
+                    ><i class="fa fa-address-card"></i> Address</label
+                  >
+                  <input
+                    type="text"
+                    id="adr-book"
+                    name="address"
+                    placeholder="542 W. 15th Street"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="state"
+                    ><i class="fa fa-institution"></i> State
+                  </label>
+                  <input
+                    type="text"
+                    id="city-book"
+                    name="city"
+                    placeholder="New York"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="departure"
+                    ><i class="fa fa-plane"></i>When are you planning to leave?</label
+                  >
+                  <input type="date" id="departure" name="Arrival date" placeholder="10001" required/>
+                </div>
+                <div class="row form-last">
+                  <label for="quantity"
+                    ><i class="fa fa-users"></i>
+                    Number of travelers? Adults? Children?
+                  </label>
+                  <select id="quantity-book-adult" name="quantity-adult">
+                    <option value="0">1 Adult</option>
+                    <option value="1">2 Adults</option>
+                    <option value="2">3 Adults</option>
+                    <option value="3">4 Adults</option>
+                    <option value="4">5 Adults</option>
+                    <option value="5">6 Adults</option>
+                    <option value="6">7 Adults</option>
+                    <option value="7">8 Adults</option>
+                  </select>
+                  <select id="quantity-book-child" name="quantity-child">
+                    <option value="0">0 Children</option>
+                    <option value="1">1 Child</option>
+                    <option value="2">2 Children</option>
+                    <option value="3">3 Children</option>
+                    <option value="4">4 Children</option>
+                    <option value="5">5 Children</option>
+                    <option value="6">6 Children</option>
+                    <option value="7">7 Children</option>
+                    <option value="8">8 Children</option>
+                  </select>
+                </div>
+                <button href="#" style="float: right" class="btn-form">Submit</button>
+              </form>
+            </div>
+            <div
+              class="book-img-box"
+              role="img"
+              aria-label="family on the beach"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section class="section-destination" id="destination">
+        <div class="container">
+          <h3 class="destination-heading">Choose Your Destination in 4 Easy Steps</h3>
+         <div class="container grid grid--4-cols">     
+            <div class="destination-steps">             
+              <i class="fas fa-address-card steps-icon"></i>            
+              <p class="steps-title">Fill Out Form!</p>
+              <p class="steps-description">Fill out our simple form providing us with all of your details</p>
+            </div>
+            <div class="destination-steps"> 
+              <i class="far fa-arrow-alt-circle-right steps-icon"></i>
+              <p class="steps-title">Approve Details!</p>
+              <p class="steps-description">Approve your meticulously planned out trip by our expert travel consultants</p>
+            </div>
+            <div class="destination-steps">             
+              <i class="far fa-arrow-alt-circle-right steps-icon"></i>            
+              <p class="steps-title">Payment Process</p>
+              <p class="steps-description"> Payment is easy with our customer-friendly checkout process</p>
+            </div>
+            <div class="destination-steps"> 
+              <i class="fas fa-plane steps-icon"></i>
+              <p class="steps-title">Depart On Adventure!</p>
+              <p class="steps-description">Relax as you depart on your adventure to your dream destination</p>
+            </div>
+          </div>
+
+          <div class="destination-gallery ">
+              <figure class="gallery-fig "> 
+                <div class="gallery-gradient"></div>            
+                <img class="gallery-img" alt="photo of jamaica"src="img/destinations/jamaica.jfif">
+              </img>               
+                <p class="gallery-text">Jamaica</p>
+              </figure>
+              <figure class="gallery-fig ">
+                <div class="gallery-gradient"></div> 
+                <img class="gallery-img" alt="photo of ireland"src="img/destinations/ireland.jpg" />
+                  <p class="gallery-text">Ireland</p>
+              </figure>
+              <figure class="gallery-fig">
+                <div class="gallery-gradient"></div> 
+                <img class="gallery-img" alt="photo of new york city"src="img/destinations/new york.jpg" />
+                  <p class="gallery-text">NewYork</p>
+              </figure>
+              <figure class="gallery-fig">
+                <div class="gallery-gradient"></div> 
+                <img class="gallery-img" alt="photo of puerto rico"src="img/destinations/puertorico.jpg" />
+                  <p class="gallery-text">PuertoRico</p>
+              </figure>
+              <figure class="gallery-fig">
+                <div class="gallery-gradient"></div> 
+                <img class="gallery-img" alt="photo of los cabos"src="img/destinations/los cabos.jpg" />
+                  <p class="gallery-text">Mexico</p>
+              </figure>
+              <figure class="gallery-fig">
+                <div class="gallery-gradient"></div> 
+                <img class="gallery-img" alt="photo of switzerland"src="img/destinations/switzerland.jpg" />                
+                  <p class="gallery-text">Switzerland</p>                  
+              </figure>
+              <figure class="gallery-fig">
+                <div class="gallery-gradient"></div> 
+                <img class="gallery-img" alt="photo of thailand" src="img/destinations/thailand.jpg" />
+                  <p class="gallery-text">Thailand</p>
+              </figure>
+              <figure class="gallery-fig">
+                <div class="gallery-gradient"></div> 
+                <img class="gallery-img" alt="photo of hawaii"  src="img/destinations/hawaii.jpg"/>                
+                  <p class="gallery-text">Hawaii</p>                 
+              </figure>
+              <figure class="gallery-fig">
+                <div class="gallery-gradient"></div> 
+                <img class="gallery-img" alt="photo of japan"  src="img/destinations/japan.jpg"/>
+                  <p class="gallery-text">Japan</p>
+              </figure>
+            </div>      
+          </div>
+        </div>
+      </section>
+
+      <section class="section-rental" id="rental">
+        <div class="container">
+          <h3 class="rental-heading">Need a rental? We've got you covered.</h3>
+          <div class="grid-rental grid--3-cols">
+            <div class="car-grid">
+              <img src="img/car/fiat500.png">
+              <h4>Fiat500</h4>
+            <div class="car-specs">
+              <p><i class="fas fa-users"></i> 4</p>
+              <p><i class="fas fa-car"></i> 2</p>
+              <p><i class="fas fa-shopping-bag"></i> 2</p>
+            </div>
+              <p class="car-cancel"><i class="fas fa-check"></i>Free cancelation </p>
+              
+              <p class="car-pay">Pay when you arrive</p>
+              <div class="price-pay-grid">
+              <p class="car-price">$72.25 <span style="font-size: 1rem;">per day</span></p>         
+                <a href="#" class="car-button">view deal</a>  
+              </div>           
+            </div>
+            <div class="car-grid">
+              <img src="img/car/fordfocus.png">
+              <h4>Ford Focus</h4>
+              <div class="car-specs">
+                <p><i class="fas fa-users"></i> 5</p>
+                <p><i class="fas fa-car"></i> 4</p>
+                <p><i class="fas fa-shopping-bag"></i> 3</p>
+              </div>
+              <p class="car-cancel"><i class="fas fa-check"></i>Free cancelation </p>
+              <p class="car-pay">Pay when you arrive</p>
+              <div class="price-pay-grid">
+                <p class="car-price">$75.25 <span style="font-size: 1rem;">per day</span></p>         
+                  <a href="#" class="car-button">view deal</a>  
+                </div> 
+            </div>
+            <div class="car-grid">
+              <img src="img/car/kiasoul.png">
+              <h4>Kia Soul</h4>
+              <div class="car-specs">
+                <p><i class="fas fa-users"></i> 5</p>
+                <p><i class="fas fa-car"></i> 4</p>
+                <p><i class="fas fa-shopping-bag"></i> 4</p>
+              </div>
+              <p class="car-cancel"><i class="fas fa-check"></i>Free cancelation </p>
+              <p class="car-pay">Pay when you arrive</p>
+              <div class="price-pay-grid">
+                <p class="car-price">$79.25 <span style="font-size: 1rem;">per day</span></p>         
+                  <a href="#" class="car-button">view deal</a>  
+                </div> 
+            </div>
+
+            <div class="car-grid">
+              <img src="img/car/fordedge.png">
+              <h4>Ford Explorer</h4>
+              <div class="car-specs">
+                <p><i class="fas fa-users"></i> 6</p>
+                <p><i class="fas fa-car"></i> 4</p>
+                <p><i class="fas fa-shopping-bag"></i> 4</p>
+              </div>
+              <p class="car-cancel"><i class="fas fa-check"></i>Free cancelation </p>
+              <p class="car-pay">Pay when you arrive</p>
+              <div class="price-pay-grid">
+                <p class="car-price">$95.25 <span style="font-size: 1rem;">per day</span></p>         
+                  <a href="#" class="car-button">view deal</a>  
+                </div> 
+            </div>
+            <div class="car-grid">
+              <img src="img/car/nissanpathfinder.png">
+              <h4>Nissan Pathfinder</h4>
+              <div class="car-specs">
+                <p><i class="fas fa-users"></i> 7</p>
+                <p><i class="fas fa-car"></i> 4</p>
+                <p><i class="fas fa-shopping-bag"></i> 5</p>
+              </div>
+              <p class="car-cancel"><i class="fas fa-check"></i>Free cancelation </p>
+              <p class="car-pay">Pay when you arrive</p>
+              <div class="price-pay-grid">
+                <p class="car-price">$105.25 <span style="font-size: 1rem;">per day</span></p>         
+                  <a href="#" class="car-button">view deal</a>  
+                </div> 
+            </div>
+            <div class="car-grid">
+              <img src="img/car/nissanrouge.png">
+              <h4>Nissan Rogue</h4>
+              <div class="car-specs">
+                <p><i class="fas fa-users"></i> 4</p>
+                <p><i class="fas fa-car"></i> 4</p>
+                <p><i class="fas fa-shopping-bag"></i> 4</p>
+              </div>
+              <p class="car-cancel"><i class="fas fa-check"></i>Free cancelation </p>
+              <p class="car-pay">Pay when you arrive</p>
+              <div class="price-pay-grid">
+                <p class="car-price">$88.89 <span style="font-size: 1rem;">per day</span></p>         
+                  <a href="#" class="car-button">view deal</a>  
+                </div> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-footer">
+        <div class="container">
+          <div class="grid grid-footer"> 
+            <div class="logo-col">
+              <a href="#">
+                <img class="logo footer-logo" alt"wolf pack logo" src="img/logonav.png">
+              </a>
+              <ul class="social-links">
+                <li>
+                  <a href="#" ><i class="fab fa-facebook social-icon"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+                </li>
+              </ul>
+            <div class="footer-address">
+              <p id="address">Address: 2341 plymouth circle, Suite 315, Orlando, FL 34215</p>
+            </div>
+            <div class="footer-email">
+              <p id="email">WolfPackTravel@travelinc.com</p>
+            </div>
+            </div>
+            <div class="company-col">
+              <h5>Company</h5>
+              <ul class="footer-link-col">
+                <li><a href="#" class="footer-link">About us</a></li>
+                <li><a href="#" class="footer-link">Careers</a></li>
+                <li><a href="#" class="footer-link">Store</a></li>
+                <li><a href="#" class="footer-link">News</a></li>
+                <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+                <li><a href="#" class="footer-link">Investor Relations</a></li>
+              </ul>              
+            </div>
+            <div class="policies-col">
+              <h5>Policies</h5>
+              <ul class="footer-link-col">
+                <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                <li><a href="#" class="footer-link">Terms of Use</a></li>
+                <li><a href="#" class="footer-link">Accessibility</a></li>
+                <li><a href="#" class="footer-link">Do not sell my personal information</a></li>
+              </ul>
+            </div>
+            <div class="help-col">
+              <h5>Help</h5>
+              <ul class="footer-link-col">
+                <li><a href="#" class="footer-link">Support</a></li>
+                <li><a href="#" class="footer-link">Cancel your vacation</a></li>
+                <li><a href="#" class="footer-link">Change vacation package</a></li>
+                <li><a href="#" class="footer-link">Do I get my deposit back?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
